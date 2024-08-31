@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">TfD</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Transformer Design</string>
+    <string name="nav_header_subtitle">+8801725223020</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_5kVA">5 kVA</string>
+    <string name="menu_10kVA">10 kVA</string>
+    <string name="menu_15kVA">15 kVA</string>
+    <string name="menu_25kVA">25 kVA</string>
+    <string name="menu_37kVA">37.5 kVA</string>
+    <string name="menu_50kVA">50 kVA</string>
+
+    <string name="vicar_address">Vicar Electricals Ltd \nSreepur, Gazipur, Bangladesh</string>
+
+
+
+</resources>

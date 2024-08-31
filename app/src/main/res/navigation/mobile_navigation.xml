@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/home">
+
+    <fragment
+        android:id="@+id/home"
+        android:name="com.example.tfd.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/kVA_5"
+        android:name="com.example.tfd.ui.kVA_5.kVA_5Fragment"
+        android:label="@string/menu_5kVA"
+        tools:layout="@layout/fragment_kva_5" />
+
+    <fragment
+        android:id="@+id/kVA_10"
+        android:name="com.example.tfd.ui.kVA_10.kVA_10Fragment"
+        android:label="@string/menu_10kVA"
+        tools:layout="@layout/fragment_kva_10" />
+
+    <fragment
+        android:id="@+id/kVA_15"
+        android:name="com.example.tfd.ui.kVA_15.kVA_15Fragment"
+        android:label="@string/menu_15kVA"
+        tools:layout="@layout/fragment_kva_15" />
+
+     <fragment
+        android:id="@+id/kVA_25"
+        android:name="com.example.tfd.ui.kVA_25.kVA_25Fragment"
+        android:label="@string/menu_25kVA"
+        tools:layout="@layout/fragment_kva_25" />
+
+     <fragment
+        android:id="@+id/kVA_37"
+        android:name="com.example.tfd.ui.kVA_37.kVA_37Fragment"
+        android:label="@string/menu_37kVA"
+        tools:layout="@layout/fragment_kva_37" />
+
+     <fragment
+        android:id="@+id/kVA_50"
+        android:name="com.example.tfd.ui.kVA_50.kVA_50Fragment"
+        android:label="@string/menu_50kVA"
+        tools:layout="@layout/fragment_kva_50" />
+
+</navigation>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/kVA_5"
+            android:icon="@drawable/baseline_cable_24"
+            android:title="@string/menu_5kVA" />
+        <item
+            android:id="@+id/kVA_10"
+            android:icon="@drawable/baseline_cable_24"
+            android:title="@string/menu_10kVA" />
+        <item
+            android:id="@+id/kVA_15"
+            android:icon="@drawable/baseline_cable_24"
+            android:title="@string/menu_15kVA" />
+
+        <item
+            android:id="@+id/kVA_25"
+            android:icon="@drawable/baseline_cable_24"
+            android:title="@string/menu_25kVA" />
+        <item
+            android:id="@+id/kVA_37"
+            android:icon="@drawable/baseline_cable_24"
+            android:title="@string/menu_37kVA" />
+        <item
+            android:id="@+id/kVA_50"
+            android:icon="@drawable/baseline_cable_24"
+            android:title="@string/menu_50kVA" />
+
+    </group>
+</menu>

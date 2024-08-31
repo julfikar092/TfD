@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    tools:ignore="HardcodedText">
+
+    <TextView
+        android:id="@+id/tesla_header"
+        android:layout_marginTop="57dp"
+        android:layout_marginStart="34dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tesla"
+        android:textAlignment="center" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/inputOfNoLoadLoss"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="32dp"
+        android:hint="Enter tesla">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/NoLoadLoss"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:digits="0123456789.,$"
+            android:inputType="numberDecimal" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Resistance Header -->
+    <TextView
+        android:id="@+id/resistance_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="34dp"
+        android:text="Resistance"
+        android:textAlignment="center" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/inputOfResistance"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="32dp"
+        android:hint="Enter resistance">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/resistance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:digits="0123456789.,$" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="32dp"
+        android:text="Submit" />
+
+    <!-- TableLayout with mostly fixed data and borders -->
+    <TableLayout
+        android:id="@+id/result_table"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        android:stretchColumns="1,2"
+        android:shrinkColumns="1,2"
+        android:layout_marginTop="0dp"
+        android:showDividers="middle"
+        android:divider="@drawable/table_cell_border">
+
+        <!-- Example Header Row -->
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:text="Technical Particulars"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:padding="2dp"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_border"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:text="BREB's Requirements"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:padding="2dp"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_border"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:text="Manufacturer Guaranteed Data Specification"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:padding="2dp"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_border"
+                android:textColor="@android:color/black"
+                android:layout_marginEnd="0dp"/> <!-- Right margin for the last cell -->
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:text="1. Manufacturer's Name &amp; Address"
+
+                android:padding="2dp"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_border"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:text="To be mentioned"
+
+                android:padding="2dp"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_border"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:text="@string/vicar_address"
+
+                android:padding="2dp"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_border"
+                android:textColor="@android:color/black"
+                android:layout_marginEnd="0dp"/> <!-- Right margin for the last cell -->
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:text="2. Design Standard"
+                android:padding="2dp"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_border"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:text="ANSI C57.12.00,C57.12.20 &amp; C57.12.90(Revisions from 2010 to the latest revision)"
+                android:padding="2dp"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_border"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:text="ANSI C57.12.00,C57.12.20 &amp; C57.12.90"
+                android:padding="2dp"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_border"
+                android:textColor="@android:color/black"
+                android:layout_marginEnd="0dp"/> <!-- Right margin for the last cell -->
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:text="3. Type"
+                android:padding="2dp"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_border"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:text="Single-phase wound core"
+                android:padding="2dp"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_border"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:text="Single-phase wound core"
+                android:padding="2dp"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_border"
+                android:textColor="@android:color/black"
+                android:layout_marginEnd="0dp"/> <!-- Right margin for the last cell -->
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:text="4. KVA Rating"
+                android:padding="2dp"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_border"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:text="To be mentioned"
+                android:padding="2dp"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_border"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:text="5 KVA Distribution Transformer"
+                android:padding="2dp"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_border"
+                android:textColor="@android:color/black"
+                android:layout_marginEnd="0dp"/> <!-- Right margin for the last cell -->
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:text="5. Winding Material"
+                android:padding="2dp"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_border"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:text="High conductivity Cu"
+                android:padding="2dp"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_border"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:text="High conductivity Cu"
+                android:padding="2dp"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_border"
+                android:textColor="@android:color/black"
+                android:layout_marginEnd="0dp"/> <!-- Right margin for the last cell -->
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:text="6. Core Type and Material"
+                android:padding="2dp"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_border"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:text="Cold Rolled Grain Oriented Silicon Strip Steel (CRG)"
+                android:padding="2dp"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_border"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:text="Cold Rolled Grain Oriented Silicon Strip Steel"
+                android:padding="2dp"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_border"
+                android:textColor="@android:color/black"
+                android:layout_marginEnd="0dp"/> <!-- Right margin for the last cell -->
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!-- First Column spanning 2 rows -->
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_border"
+                android:gravity="center_vertical|start"
+                android:padding="2dp"
+                android:text="7. Nominal Voltage"
+                android:textColor="@android:color/black"
+                android:lines="1"
+                />
+
+            <!-- Second Column, first row -->
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_border"
+                android:padding="2dp"
+                android:text="1 1"
+                android:textColor="@android:color/black"/>
+
+            <!-- Third Column, first row -->
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_border"
+                android:padding="2dp"
+                android:text="1 2"
+                android:textColor="@android:color/black" />
+        </TableRow>
+
+        <!-- Second TableRow -->
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!-- Empty first cell to simulate row spanning -->
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <!-- Second Column, second row -->
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_border"
+                android:padding="2dp"
+                android:text="2 1"
+                android:textColor="@android:color/black" />
+
+            <!-- Third Column, second row -->
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_border"
+                android:padding="2dp"
+                android:text="2 2"
+                android:textColor="@android:color/black" />
+        </TableRow>
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="8. BIL"
+                android:padding="2dp"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_border"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:text="Cold Rolled Grain Oriented Silicon Strip Steel (CRG)"
+                android:padding="2dp"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_border"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:text="Cold Rolled Grain Oriented Silicon Strip Steel"
+                android:padding="2dp"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_border"
+                android:textColor="@android:color/black"
+                android:layout_marginEnd="0dp"/> <!-- Right margin for the last cell -->
+        </TableRow>
+
+
+
+
+    </TableLayout>
+</LinearLayout>
