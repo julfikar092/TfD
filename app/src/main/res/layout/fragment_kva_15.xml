@@ -88,83 +88,248 @@
     <TableLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:stretchColumns="1,2"
-        android:shrinkColumns="1,2">
+        android:stretchColumns="1,2">
 
-        <!-- First TableRow -->
-        <TableLayout
+        <TableRow
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:stretchColumns="1,2"
-            android:shrinkColumns="1,2">
+            android:layout_height="wrap_content">
 
-            <!-- First TableRow -->
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+            <!-- First Column spanning 2 rows -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/table_cell_border">
 
-                <!-- First Column spanning 2 rows -->
+                <!-- Sub Row 1 -->
                 <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:background="@drawable/table_cell_border"
-                    android:gravity="center_vertical|start"
-                    android:padding="2dp"
-                    android:text="7. Nominal Voltage"
-                    android:textColor="@android:color/black"
-                    android:lines="2" /> <!-- Optional: to control the text area size -->
-
-                <!-- Second Column, first row -->
-                <TextView
-                    android:layout_width="0dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
+                    android:text="Heading"
+                    android:gravity="center"
+                    android:padding="5dp"
                     android:background="@drawable/table_cell_border"
-                    android:padding="2dp"
-                    android:text="1 1"
                     android:textColor="@android:color/black"/>
 
-                <!-- Third Column, first row -->
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:background="@drawable/table_cell_border"
-                    android:padding="2dp"
-                    android:text="1 2"
-                    android:textColor="@android:color/black" />
-            </TableRow>
+            </LinearLayout>
 
-            <!-- Second TableRow -->
-            <TableRow
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/table_cell_border">
+
+                <!-- Sub Row 1 -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Data 1"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:background="@drawable/table_cell_border"
+                    android:textColor="@android:color/black"/>
+
+            </LinearLayout>
+
+            <!-- Third Column, first row -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/table_cell_border">
+
+                <!-- Sub Row 1 -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Data 2"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:background="@drawable/table_cell_border"
+                    android:textColor="@android:color/black"/>
+
+            </LinearLayout>
+        </TableRow>
+
+
+       <!-- First row -->
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <!-- Cell 1: Single Row -->
+            <TextView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="match_parent"
+                android:background="@drawable/table_cell_border"
+                android:gravity="center_vertical|start"
+                android:padding="10dp"
+                android:text="7. Nominal Voltage"
+                android:textColor="@android:color/black" />
 
-                <!-- Second Column, second row -->
+            <!-- Cell 2: Will contain multiple rows -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/table_cell_border">
+
+                <!-- Sub Row 1 -->
                 <TextView
-                    android:layout_width="0dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
+                    android:text="Sub Row 1"
+                    android:gravity="center"
+                    android:padding="5dp"
                     android:background="@drawable/table_cell_border"
-                    android:padding="2dp"
-                    android:text="2 1"
-                    android:textColor="@android:color/black" />
+                    android:textColor="@android:color/black"/>
 
-                <!-- Third Column, second row -->
+                <!-- Sub Row 2 -->
                 <TextView
-                    android:layout_width="0dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
+                    android:text="Sub Row 2"
+                    android:gravity="center"
+                    android:padding="5dp"
                     android:background="@drawable/table_cell_border"
-                    android:padding="2dp"
-                    android:text="2 2"
-                    android:textColor="@android:color/black" />
-            </TableRow>
+                    android:textColor="@android:color/black"/>
 
-        </TableLayout>
+                <!-- Sub Row 3 -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sub Row 3"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:background="@drawable/table_cell_border"
+                    android:textColor="@android:color/black"/>
+
+                <!-- Sub Row 4 -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sub Row 4"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:background="@drawable/table_cell_border"
+                    android:textColor="@android:color/black"/>
+            </LinearLayout>
+
+            <!-- Cell 3: Will contain multiple rows -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <!-- Sub Row 1 -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sub Row 1"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:background="@drawable/table_cell_border"
+                    android:textColor="@android:color/black"/>
+
+                <!-- Sub Row 2 -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sub Row 2"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:background="@drawable/table_cell_border"
+                    android:textColor="@android:color/black"/>
+
+                <!-- Sub Row 3 -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sub Row 3"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:background="@drawable/table_cell_border"
+                    android:textColor="@android:color/black"/>
+
+                <!-- Sub Row 4 -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sub Row 4"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:background="@drawable/table_cell_border"
+                    android:textColor="@android:color/black"/>
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!-- First Column spanning 2 rows -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/table_cell_border">
+
+                <!-- Sub Row 1 -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Heading"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:background="@drawable/table_cell_border"
+                    android:textColor="@android:color/black"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/table_cell_border">
+
+                <!-- Sub Row 1 -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Data 1"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:background="@drawable/table_cell_border"
+                    android:textColor="@android:color/black"/>
+
+            </LinearLayout>
+
+            <!-- Third Column, first row -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/table_cell_border">
+
+                <!-- Sub Row 1 -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Data 2"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:background="@drawable/table_cell_border"
+                    android:textColor="@android:color/black"/>
+
+            </LinearLayout>
+        </TableRow>
+
+
 
     </TableLayout>
+
+
 
 
 </LinearLayout>

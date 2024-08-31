@@ -130,7 +130,6 @@
 
             <TextView
                 android:text="1. Manufacturer's Name &amp; Address"
-
                 android:padding="2dp"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
@@ -347,9 +346,7 @@
                 android:gravity="center_vertical|start"
                 android:padding="2dp"
                 android:text="7. Nominal Voltage"
-                android:textColor="@android:color/black"
-                android:lines="1"
-                />
+                android:textColor="@android:color/black" />
 
             <!-- Second Column, first row -->
             <TextView
@@ -405,42 +402,73 @@
         </TableRow>
 
 
-
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
+            <!-- First Column spanning 2 rows -->
             <TextView
-                android:text="8. BIL"
-                android:padding="2dp"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="@drawable/table_cell_border"
+                android:gravity="center_vertical|start"
+                android:padding="2dp"
+                android:text="7. Nominal Voltage"
+                android:textColor="@android:color/black" />
+
+            <!-- Second Column, first row -->
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_border"
+                android:padding="2dp"
+                android:text="1 1"
                 android:textColor="@android:color/black"/>
 
+            <!-- Third Column, first row -->
             <TextView
-                android:text="Cold Rolled Grain Oriented Silicon Strip Steel (CRG)"
-                android:padding="2dp"
                 android:layout_width="0dp"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:background="@drawable/table_cell_border"
-                android:textColor="@android:color/black"/>
-
-            <TextView
-                android:text="Cold Rolled Grain Oriented Silicon Strip Steel"
                 android:padding="2dp"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:background="@drawable/table_cell_border"
-                android:textColor="@android:color/black"
-                android:layout_marginEnd="0dp"/> <!-- Right margin for the last cell -->
+                android:text="1 2"
+                android:textColor="@android:color/black" />
         </TableRow>
 
+        <!-- Second TableRow -->
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
+            <!-- Empty first cell to simulate row spanning -->
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
 
+            <!-- Second Column, second row -->
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_border"
+                android:padding="2dp"
+                android:text="2 1"
+                android:textColor="@android:color/black" />
+
+            <!-- Third Column, second row -->
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_border"
+                android:padding="2dp"
+                android:text="2 2"
+                android:textColor="@android:color/black" />
+        </TableRow>
 
     </TableLayout>
 </LinearLayout>
