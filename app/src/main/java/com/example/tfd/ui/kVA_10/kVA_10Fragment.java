@@ -11,8 +11,10 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
 import com.example.tfd.databinding.FragmentKva10Binding;
+import com.example.tfd.databinding.FragmentKva15Binding;
 import com.example.tfd.databinding.FragmentKva5Binding;
 import com.example.tfd.ui.kVA_10.kVA_10ViewModel;
+import com.example.tfd.ui.kVA_15.kVA_15ViewModel;
 
 public class kVA_10Fragment extends Fragment {
 
@@ -20,14 +22,15 @@ public class kVA_10Fragment extends Fragment {
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        kVA_10ViewModel kva5ViewModel =
+
+        kVA_10ViewModel kva10ViewModel =
                 new ViewModelProvider(this).get(kVA_10ViewModel.class);
 
         binding = FragmentKva10Binding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
-        final TextView textView = binding.textKva10;
-        kva5ViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
+        final TextView textView = binding.textKva15;
+        kva10ViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
         return root;
     }
 
