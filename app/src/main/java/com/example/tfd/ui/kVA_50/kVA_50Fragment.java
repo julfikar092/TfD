@@ -25,7 +25,7 @@ public class kVA_50Fragment extends Fragment {
         binding = FragmentKva50Binding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
-        final TextView textView = binding.textKva50;
+        final TextView textView = binding.textKva15;
         kva50ViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
         return root;
     }

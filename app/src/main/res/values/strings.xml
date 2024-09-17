@@ -16,8 +16,12 @@
     <string name="menu_50kVA">50 kVA</string>
 
     <string name="vicar_address">Vicar Electricals Ltd \nSreepur, Gazipur, Bangladesh</string>
-
     <string name="n_vol">7. Nominal\nVoltage</string>
+    <string name="R_19">HV: 21.85 kg\nLV: 16.84 kg with 100% purity</string>
+    <string name="R_20">HV: 1.6256 mm (Bare), area: 2.075 mm&#178;\nLV: (9.5 &#215; 2.8)&#215;2mm (Bare), area: 52.4mm&#178;</string>
+    <string name="R_21">HV: 1.897\nLV: 1.988</string>
+    <string name="R_22">HV: 1746\nLV: 66</string>
+    <string name="R_25">HV: 3.937 Amp\nLV: 104.17 Amp</string>
 
 
 

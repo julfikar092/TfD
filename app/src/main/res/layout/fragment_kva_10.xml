@@ -9,7 +9,7 @@
     tools:ignore="HardcodedText">
 
     <TextView
-        android:id="@+id/text_kva10"
+        android:id="@+id/text_kva15"
         android:layout_marginTop="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -84,6 +84,3528 @@
         android:layout_marginTop="15dp"
         android:layout_marginEnd="32dp"
         android:text="Submit" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="1,2"
+            android:visibility="invisible">
+
+            <!--1st Row-->
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!-- First Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center"
+                        android:maxLines="3"
+                        android:padding="2dp"
+                        android:text="Technical Particulars"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" /> <!-- Ensures vertical centering -->
+
+                </LinearLayout>
+
+                <!-- Second Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center"
+                        android:maxLines="3"
+                        android:padding="2dp"
+                        android:text="BREB's Requirements"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <!-- Third Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center"
+                        android:maxLines="3"
+                        android:padding="2dp"
+                        android:text="Manufacturer Guaranteed Data Specification"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+            </TableRow>
+
+            <!--2nd Row-->
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!-- First Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="1. Manufacturer's Name &amp; Address"
+                        android:textColor="@android:color/black" /> <!-- Ensures vertical centering -->
+
+                </LinearLayout>
+
+                <!-- Second Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center|start"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="To be mentioned"
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+
+                <!-- Third Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center|start"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="@string/vicar_address"
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!-- First Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="2. Design Standard"
+                        android:textColor="@android:color/black" /> <!-- Ensures vertical centering -->
+
+                </LinearLayout>
+
+                <!-- Second Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="25"
+                        android:padding="5dp"
+                        android:text="ANSI C57.12.00,C57.12.20 &amp; C57.12.90(Revisions from 2010 to the latest revision)"
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+
+                <!-- Third Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="ANSI C57.12.00,C57.12.20 &amp; C57.12.90"
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!-- First Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="3. Type"
+                        android:textColor="@android:color/black" /> <!-- Ensures vertical centering -->
+
+                </LinearLayout>
+
+                <!-- Second Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="Single-phase wound core"
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+
+                <!-- Third Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="Single-phase wound core"
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!-- First Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="4. KVA Rating"
+                        android:textColor="@android:color/black" /> <!-- Ensures vertical centering -->
+
+                </LinearLayout>
+
+                <!-- Second Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="To be mentioned"
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+
+                <!-- Third Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="5 KVA Distribution Transformer"
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!-- First Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text=""
+                        android:textColor="@android:color/black" /> <!-- Ensures vertical centering -->
+
+                </LinearLayout>
+
+                <!-- Second Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="High conductivity Cu"
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+
+                <!-- Third Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="As per table-2 of specification"
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!-- First Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="6. Core Type and Material"
+                        android:textColor="@android:color/black" /> <!-- Ensures vertical centering -->
+
+                </LinearLayout>
+
+                <!-- Second Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="Cold Rolled Grain Oriented Silicon Strip Steel (CRG)"
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+
+                <!-- Third Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="MCold Rolled Grain Oriented Silicon Strip Steel"
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!-- Cell 1: Single Row (Spans the height of multiple rows in other columns) -->
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="7. Nominal Voltage"
+                    android:textColor="@android:color/black" />
+
+                <!-- Cell 2: Contains multiple sub-rows -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <!-- Sub Row 1 -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/table_cell_border"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="HT = 6350 V"
+                        android:textColor="@android:color/black" />
+                    <!-- Sub Row 2 -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/table_cell_border"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="LT = 240 V"
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+
+                <!-- Cell 3: Contains multiple sub-rows -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <!-- Sub Row 1 -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/table_cell_border"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="HT = 6350 V"
+                        android:textColor="@android:color/black" />
+
+                    <!-- Sub Row 2 -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/table_cell_border"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="LT = 240 V"
+                        android:textColor="@android:color/black" />
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!-- Cell 1: Single Row (Spans the height of multiple rows in other columns) -->
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="8. BIL"
+                    android:textColor="@android:color/black" />
+
+                <!-- Cell 2: Contains multiple sub-rows -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <!-- Sub Row 1 -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/table_cell_border"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="HT Windings = 95 KV"
+                        android:textColor="@android:color/black" />
+
+                    <!-- Sub Row 2 -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/table_cell_border"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="LT Windings = 30 KV or as per latest ANSI requirement"
+                        android:textColor="@android:color/black" />
+                </LinearLayout>
+
+                <!-- Cell 3: Contains multiple sub-rows -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <!-- Sub Row 1 -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/table_cell_border"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="HT Windings = 95 KV"
+                        android:textColor="@android:color/black" />
+
+                    <!-- Sub Row 2 -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="LT Windings = 30 KV"
+                        android:textColor="@android:color/black" />
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!-- First Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="9. % Impedance at rated KVA(for 5 KVA to 37.5 KVA)"
+                        android:textColor="@android:color/black" /> <!-- Ensures vertical centering -->
+
+                </LinearLayout>
+
+                <!-- Second Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="2.5% (with + 10% Tolerance)"
+                        android:textColor="@android:color/black"
+                        tools:ignore="TooManyViews" />
+
+                </LinearLayout>
+
+                <!-- Third Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="2.5% (with + 10% Tolerance)"
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!-- First Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="10. Polarity"
+                        android:textColor="@android:color/black" /> <!-- Ensures vertical centering -->
+
+                </LinearLayout>
+
+                <!-- Second Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="Aditive"
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+
+                <!-- Third Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="Aditive"
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!-- First Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="11. Cooling Method"
+                        android:textColor="@android:color/black" /> <!-- Ensures vertical centering -->
+
+                </LinearLayout>
+
+                <!-- Second Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="Class-OA (Self-cooled)"
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+
+                <!-- Third Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="Class-OA (Self-cooled)"
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!-- First Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical"
+                    tools:ignore="UselessParent">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="12. Temperature rise:"
+                        android:textColor="@android:color/black" /> <!-- Ensures vertical centering -->
+
+                </LinearLayout>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!-- First Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="a) Winding"
+                        android:textColor="@android:color/black" /> <!-- Ensures vertical centering -->
+
+                </LinearLayout>
+
+                <!-- Second Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="Shall not exceed 65\u2103 (Resistance Method)"
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+
+                <!-- Third Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="Shall not exceed 65\u2103 (Resistance Method)"
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!-- First Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="b) Insulting Liquid"
+                        android:textColor="@android:color/black" /> <!-- Ensures vertical centering -->
+
+                </LinearLayout>
+
+                <!-- Second Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="Shall not exceed 65\u2103"
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+
+                <!-- Third Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="Shall not exceed 65\u2103"
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!-- First Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="13. Bushing"
+                        android:textColor="@android:color/black" /> <!-- Ensures vertical centering -->
+
+                </LinearLayout>
+
+                <!-- Second Column -->
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!-- First Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="a) Type and Material"
+                        android:textColor="@android:color/black" /> <!-- Ensures vertical centering -->
+
+                </LinearLayout>
+
+                <!-- Second Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="Outdoor type, Porecelain"
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+
+                <!-- Third Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="Outdoor type, Porecelain"
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!-- First Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="b) Connectors"
+                        android:textColor="@android:color/black" /> <!-- Ensures vertical centering -->
+
+                </LinearLayout>
+
+                <!-- Second Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="Bolted ring type"
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+
+                <!-- Third Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="Bolted ring type"
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!-- First Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="c) Quantity"
+                        android:textColor="@android:color/black" /> <!-- Ensures vertical centering -->
+
+                </LinearLayout>
+
+                <!-- Second Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="HT = 1, LT = 2"
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+
+                <!-- Third Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="HT = 1, LT = 2"
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!-- Cell 1: Single Row (Spans the height of multiple rows in other columns) -->
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="d) Mounting Position"
+                    android:textColor="@android:color/black" />
+
+                <!-- Cell 2: Contains multiple sub-rows -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <!-- Sub Row 1 -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/table_cell_border"
+                        android:gravity="center_vertical"
+                        android:padding="5dp"
+                        android:text="HT- on the tank cover"
+                        android:textColor="@android:color/black" />
+
+                    <!-- Sub Row 2 -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/table_cell_border"
+                        android:gravity="center_vertical"
+                        android:padding="5dp"
+                        android:text="LT- on the tank side"
+                        android:textColor="@android:color/black" />
+                </LinearLayout>
+
+                <!-- Cell 3: Contains multiple sub-rows -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <!-- Sub Row 1 -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/table_cell_border"
+                        android:gravity="center_vertical"
+                        android:padding="5dp"
+                        android:text="HT- on the tank cover"
+                        android:textColor="@android:color/black" />
+
+                    <!-- Sub Row 2 -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:gravity="center_vertical"
+                        android:padding="5dp"
+                        android:text="LT- on the tank side"
+                        android:textColor="@android:color/black" />
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!-- First Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="14. Tank"
+                        android:textColor="@android:color/black" /> <!-- Ensures vertical centering -->
+
+                </LinearLayout>
+
+                <!-- Second Column -->
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!-- First Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="a) Design"
+                        android:textColor="@android:color/black" /> <!-- Ensures vertical centering -->
+
+                </LinearLayout>
+
+                <!-- Second Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="Sealed type complete with cover &amp; gasket"
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+
+                <!-- Third Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="Sealed type complete with cover &amp; gasket"
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!-- First Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="b) Ground Provision"
+                        android:textColor="@android:color/black" /> <!-- Ensures vertical centering -->
+
+                </LinearLayout>
+
+                <!-- Second Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="With botled ring type connector"
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+
+                <!-- Third Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="With botled ring type connector"
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!-- First Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="c) LV ground provision"
+                        android:textColor="@android:color/black" /> <!-- Ensures vertical centering -->
+
+                </LinearLayout>
+
+                <!-- Second Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="With removable Cu Strap"
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+
+                <!-- Third Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="With removable Cu Strap"
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!-- First Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="d) Lifting facilities"
+                        android:textColor="@android:color/black" /> <!-- Ensures vertical centering -->
+
+                </LinearLayout>
+
+                <!-- Second Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="Facilities for lifting the core &amp; coil"
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+
+                <!-- Third Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="Facilities for lifting the core &amp; coil"
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!-- First Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="e) Supporting lug"
+                        android:textColor="@android:color/black" /> <!-- Ensures vertical centering -->
+
+                </LinearLayout>
+
+                <!-- Second Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="Shall have support lugs"
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+
+                <!-- Third Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="Shall have support lugs"
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!-- First Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="(f). Pressure release device"
+                        android:textColor="@android:color/black" /> <!-- Ensures vertical centering -->
+
+                </LinearLayout>
+
+                <!-- Second Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="Self-sealing pressure release device"
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+
+                <!-- Third Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="Self-sealing pressure release device"
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!-- First Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="(g) Min.Size (d &#215; m) mm"
+                        android:textColor="@android:color/black" /> <!-- Ensures vertical centering -->
+
+                </LinearLayout>
+
+                <!-- Second Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="As per table-2 of specification"
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+
+                <!-- Third Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="As per table-2 of specification"
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!-- First Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="(h) Painting"
+                        android:textColor="@android:color/black" /> <!-- Ensures vertical centering -->
+
+                </LinearLayout>
+
+                <!-- Second Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="Light Gray, ANSI Color #70"
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+
+                <!-- Third Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="Light Gray, ANSI Color #70"
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!-- First Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="15. Insulting Oil"
+                        android:textColor="@android:color/black" /> <!-- Ensures vertical centering -->
+
+                </LinearLayout>
+
+                <!-- Second Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="New, unused, mineral oil as per ANSI/ASTM D3487-79"
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+
+                <!-- Third Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="New, unused, mineral oil as per ANSI/ASTM D3487-79"
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!-- First Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="16. Guaranteed load loss in Watt at voltage 85\u2103"
+                        android:textColor="@android:color/black" /> <!-- Ensures vertical centering -->
+
+                </LinearLayout>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!-- First Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="(a) 1/2 load"
+                        android:textColor="@android:color/black" /> <!-- Ensures vertical centering -->
+
+                </LinearLayout>
+
+                <!-- Second Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="To be mentioned"
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+
+                <!-- Third Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="95 W"
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!-- First Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="(b) 3/4 load"
+                        android:textColor="@android:color/black" /> <!-- Ensures vertical centering -->
+
+                </LinearLayout>
+
+                <!-- Second Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="To be mentioned"
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+
+                <!-- Third Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="213.75 W"
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!-- First Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="(c) Full load"
+                        android:textColor="@android:color/black" /> <!-- Ensures vertical centering -->
+
+                </LinearLayout>
+
+                <!-- Second Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="25KVA &#8804; 380 W"
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+
+                <!-- Third Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="380 W"
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!-- First Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="17. Guaranteed no load loss in Watt"
+                        android:textColor="@android:color/black" /> <!-- Ensures vertical centering -->
+
+                </LinearLayout>
+
+                <!-- Second Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="25KVA &#8804; 46 W"
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+
+                <!-- Third Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="45 W"
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!-- First Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="18. Core loss, watt/kg (supported by loss curve) Full load"
+                        android:textColor="@android:color/black" /> <!-- Ensures vertical centering -->
+
+                </LinearLayout>
+
+                <!-- Second Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="To be mentioned"
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+
+                <!-- Third Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="0.682 watt/kg at 1.5 Tesla with maximum handling factor 10%"
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!-- First Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="19. HT &amp; LT Weight of Copper with pertcent of purity"
+                        android:textColor="@android:color/black" /> <!-- Ensures vertical centering -->
+
+                </LinearLayout>
+
+                <!-- Second Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="To be mentioned"
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+
+                <!-- Third Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="@string/R_19"
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!-- First Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="5"
+                        android:padding="5dp"
+                        android:text="20. HT &amp; LT Conductor Sizes(Dia in mm &amp; Area in sq.mm)"
+                        android:textColor="@android:color/black" /> <!-- Ensures vertical centering -->
+
+                </LinearLayout>
+
+                <!-- Second Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="To be mentioned"
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+
+                <!-- Third Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="8"
+                        android:padding="5dp"
+                        android:text="@string/R_20"
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!-- First Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="21. Current Densities(in Amps/sq.mm)"
+                        android:textColor="@android:color/black" /> <!-- Ensures vertical centering -->
+
+                </LinearLayout>
+
+                <!-- Second Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="To be mentioned"
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+
+                <!-- Third Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="@string/R_21"
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!-- First Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="22. Number of Turns at HT &amp; LT side"
+                        android:textColor="@android:color/black" /> <!-- Ensures vertical centering -->
+
+                </LinearLayout>
+
+                <!-- Second Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="To be mentioned"
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+
+                <!-- Third Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="@string/R_22"
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!-- First Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="23. Excitation current in Amp"
+                        android:textColor="@android:color/black" /> <!-- Ensures vertical centering -->
+
+                </LinearLayout>
+
+                <!-- Second Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="To be mentioned"
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+
+                <!-- Third Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="0.6"
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!-- First Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="24. Regulation at unity &amp; 0.8P.F"
+                        android:textColor="@android:color/black" /> <!-- Ensures vertical centering -->
+
+                </LinearLayout>
+
+                <!-- Second Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="To be mentioned"
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+
+                <!-- Third Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <!-- Sub Row 1 -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/table_cell_border"
+                        android:gravity="center_vertical"
+                        android:padding="5dp"
+                        android:text="1.539% (Unity PF)"
+                        android:textColor="@android:color/black" />
+                    <!-- Sub Row 2 -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/table_cell_border"
+                        android:gravity="center_vertical"
+                        android:padding="5dp"
+                        android:text="2.406% (0.8 PF)"
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!-- First Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="25. Full load current in amp"
+                        android:textColor="@android:color/black" /> <!-- Ensures vertical centering -->
+
+                </LinearLayout>
+
+                <!-- Second Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="To be mentioned"
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+
+                <!-- Third Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="@string/R_25"
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!-- First Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="26. % resistance at rated KVA"
+                        android:textColor="@android:color/black" /> <!-- Ensures vertical centering -->
+
+                </LinearLayout>
+
+                <!-- Second Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="To be mentioned"
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+
+                <!-- Third Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="1.52"
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!-- Third Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <!-- Sub Row 1 -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/table_cell_border"
+                        android:gravity="center_vertical"
+                        android:padding="5dp"
+                        android:text="27. Efficiency at unity P.F (%)"
+                        android:textColor="@android:color/black" />
+                    <!-- Sub Row 2 -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/table_cell_border"
+                        android:gravity="center_vertical"
+                        android:padding="5dp"
+                        android:text="(a) 1/2 load."
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/table_cell_border"
+                        android:gravity="center_vertical"
+                        android:padding="5dp"
+                        android:text="(b) 3/4 load."
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/table_cell_border"
+                        android:gravity="center_vertical"
+                        android:padding="5dp"
+                        android:text="(c) Full load."
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+
+                <!-- Second Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="To be mentioned"
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+
+                <!-- Third Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <!-- Sub Row 1 -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/table_cell_border"
+                        android:gravity="center_vertical"
+                        android:padding="5dp"
+                        android:text="Efficiency at unity P.F (%)"
+                        android:textColor="@android:color/black" />
+                    <!-- Sub Row 2 -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/table_cell_border"
+                        android:gravity="center_vertical"
+                        android:padding="5dp"
+                        android:text="99.0229"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/table_cell_border"
+                        android:gravity="center_vertical"
+                        android:padding="5dp"
+                        android:text="98.8229"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/table_cell_border"
+                        android:gravity="center_vertical"
+                        android:padding="5dp"
+                        android:text="98.5674"
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!-- Third Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <!-- Sub Row 1 -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/table_cell_border"
+                        android:gravity="center_vertical"
+                        android:padding="5dp"
+                        android:text="28. Weight in Kg"
+                        android:textColor="@android:color/black" />
+                    <!-- Sub Row 2 -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/table_cell_border"
+                        android:gravity="center_vertical"
+                        android:padding="5dp"
+                        android:text="(a) With oil"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/table_cell_border"
+                        android:gravity="center_vertical"
+                        android:padding="5dp"
+                        android:text="(b) Without oil"
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+
+                <!-- Second Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="To be mentioned"
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+
+                <!-- Third Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <!-- Sub Row 1 -->
+                    <!-- Sub Row 2 -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/table_cell_border"
+                        android:gravity="center_vertical"
+                        android:padding="5dp"
+                        android:text="Weight in Kg"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/table_cell_border"
+                        android:gravity="center_vertical"
+                        android:padding="5dp"
+                        android:text="355"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/table_cell_border"
+                        android:gravity="center_vertical"
+                        android:padding="5dp"
+                        android:text="274"
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!-- First Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="29. Drawing Showing general arrangement and outline dimension"
+                        android:textColor="@android:color/black" /> <!-- Ensures vertical centering -->
+
+                </LinearLayout>
+
+                <!-- Second Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="To be mentioned"
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+
+                <!-- Third Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="Submitted"
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!-- Third Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <!-- Sub Row 1 -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/table_cell_border"
+                        android:gravity="center_vertical"
+                        android:padding="5dp"
+                        android:text="30. Test Reports"
+                        android:textColor="@android:color/black" />
+                    <!-- Sub Row 2 -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/table_cell_border"
+                        android:gravity="center_vertical"
+                        android:padding="5dp"
+                        android:text="(a) Routine Test"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/table_cell_border"
+                        android:gravity="center_vertical"
+                        android:padding="5dp"
+                        android:text="(b) Temperature rise test"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/table_cell_border"
+                        android:gravity="center_vertical"
+                        android:padding="5dp"
+                        android:text="(c) Impulse test"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/table_cell_border"
+                        android:gravity="center_vertical"
+                        android:padding="5dp"
+                        android:text="(d) Short circuit test"
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+
+                <!-- Second Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="10"
+                        android:padding="5dp"
+                        android:text="Test report must be submitted for the offered transformer. As per ANSI Standard ANSI C57.12.00, C57.12.20 and C57.12.90 (Revisions from 2010 to the latest)"
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="Submitted"
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!-- Third Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <!-- Sub Row 1 -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/table_cell_border"
+                        android:gravity="center_vertical"
+                        android:padding="5dp"
+                        android:text="31. Loss value from test report"
+                        android:textColor="@android:color/black" />
+                    <!-- Sub Row 2 -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/table_cell_border"
+                        android:gravity="center_vertical"
+                        android:padding="5dp"
+                        android:text="(a) No load loss in KW"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/table_cell_border"
+                        android:gravity="center_vertical"
+                        android:padding="5dp"
+                        android:text="(b) Full load loss in KW at 85\u2103"
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+
+                <!-- Second Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="7"
+                        android:padding="5dp"
+                        android:text="To be filled up from routine test report"
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+
+                <!-- Third Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <!-- Sub Row 1 -->
+                    <!-- Sub Row 2 -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/table_cell_border"
+                        android:gravity="center_vertical"
+                        android:padding="5dp"
+                        android:text="Loss value from test report"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/table_cell_border"
+                        android:gravity="center_vertical"
+                        android:padding="5dp"
+                        android:text="0.071"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:gravity="center_vertical"
+                        android:padding="5dp"
+                        android:text="0.587"
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!-- First Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="32. Test Lab"
+                        android:textColor="@android:color/black" /> <!-- Ensures vertical centering -->
+
+                </LinearLayout>
+
+                <!-- Second Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="Should be internationally recognized independent testing laboratory"
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+
+                <!-- Third Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="Comply"
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!-- First Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:padding="5dp"
+                        android:text="33. Packing and Shipping Box"
+                        android:textColor="@android:color/black" /> <!-- Ensures vertical centering -->
+
+                </LinearLayout>
+
+                <!-- Second Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="10"
+                        android:padding="5dp"
+                        android:text="Packing shall be as per specification and shipping box shall be as per design no. 2 of Exhibit E-2 of bid document."
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+
+                <!-- Third Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_cell_border"
+                        android:ellipsize="none"
+                        android:gravity="center_vertical"
+                        android:maxLines="10"
+                        android:padding="5dp"
+                        android:text="Packing shall be as per specification and shipping box shall be as per design no. 2 of Exhibit E-2 of bid document."
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+
+            </TableRow>
+
+
+        </TableLayout>
+
+    </ScrollView>
 
 </LinearLayout>
 
