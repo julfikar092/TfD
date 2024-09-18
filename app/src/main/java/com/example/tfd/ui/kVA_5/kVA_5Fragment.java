@@ -31,7 +31,7 @@ public class kVA_5Fragment extends Fragment {
         View root = binding.getRoot();
 
         // Access the input fields, button, and table using View Binding
-        final TextView initialText = binding.textKva15;
+
 
         final TextView teslaHeader = binding.teslaHeader;
         final TextView resistanceHeader = binding.resistanceHeader;
@@ -46,7 +46,7 @@ public class kVA_5Fragment extends Fragment {
         inputNoLoadLoss.setVisibility(View.VISIBLE);
         inputResistance.setVisibility(View.VISIBLE);
         submitButton.setVisibility(View.VISIBLE);
-        binding.textKva15.setVisibility(View.VISIBLE);
+
 
         // Hide the table initially
         tableLayout.setVisibility(View.GONE);
@@ -62,7 +62,7 @@ public class kVA_5Fragment extends Fragment {
                 noLoadLossEditText.setText("");
                 resistanceEditText.setText("");
                 // Hide input fields and button
-                initialText.setVisibility(View.GONE);
+
                 teslaHeader.setVisibility(View.GONE);
                 inputNoLoadLoss.setVisibility(View.GONE);
                 resistanceHeader.setVisibility(View.GONE);
@@ -75,7 +75,7 @@ public class kVA_5Fragment extends Fragment {
             }
         });
 
-        kva5ViewModel.getText().observe(getViewLifecycleOwner(), binding.textKva15::setText);
+
         return root;
     }
 
