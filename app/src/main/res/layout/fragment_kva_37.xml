@@ -8,8 +8,6 @@
     tools:context=".MainActivity"
     tools:ignore="HardcodedText">
 
-
-
     <TextView
         android:id="@+id/teslaHeader"
         android:layout_marginTop="57dp"
@@ -40,7 +38,6 @@
             android:inputType="numberDecimal" />
 
     </com.google.android.material.textfield.TextInputLayout>
-
 
     <TextView
         android:id="@+id/resistanceHeader"
@@ -92,6 +89,42 @@
             android:layout_height="wrap_content"
             android:stretchColumns="1,2"
             android:visibility="invisible">
+
+            <TextView
+                android:id="@+id/specRatedKva"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:text="37.5"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/specLtVolt"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:text="240"
+                android:visibility="gone"/>
+
+            <!-- Optional: if you want to compute core loss from Tesla & your row-18 constant -->
+            <TextView
+                android:id="@+id/specLossPerKgAt1p5T"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:text="0.682"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/specCoreWeightKg"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:text=""
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/specHandlingFactor"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:text="1.10"
+                android:visibility="gone"/>
 
             <!--1st Row-->
             <TableRow
@@ -2113,7 +2146,6 @@
                         android:textColor="@android:color/black" />
 
                 </LinearLayout>
-
                 <!-- Third Column -->
                 <LinearLayout
                     android:layout_width="0dp"
@@ -2123,17 +2155,18 @@
                     android:orientation="vertical">
 
                     <TextView
+                        android:id="@+id/cellCuLossHalf"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:background="@drawable/table_cell_border"
+                        android:background="@drawable/cell_highlight"
                         android:ellipsize="none"
                         android:gravity="center_vertical"
                         android:maxLines="3"
                         android:padding="5dp"
-                        android:text="95 W"
+                        android:text="—"
                         android:textColor="@android:color/black" />
-
                 </LinearLayout>
+
             </TableRow>
 
             <TableRow
@@ -2191,17 +2224,18 @@
                     android:orientation="vertical">
 
                     <TextView
+                        android:id="@+id/cellCuLossThreeQuarter"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:background="@drawable/table_cell_border"
+                        android:background="@drawable/cell_highlight"
                         android:ellipsize="none"
                         android:gravity="center_vertical"
                         android:maxLines="3"
                         android:padding="5dp"
-                        android:text="213.75 W"
+                        android:text="—"
                         android:textColor="@android:color/black" />
-
                 </LinearLayout>
+
             </TableRow>
 
             <TableRow
@@ -2259,17 +2293,18 @@
                     android:orientation="vertical">
 
                     <TextView
+                        android:id="@+id/cellCuLossFull"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:background="@drawable/table_cell_border"
+                        android:background="@drawable/cell_highlight"
                         android:ellipsize="none"
                         android:gravity="center_vertical"
                         android:maxLines="3"
                         android:padding="5dp"
-                        android:text="380 W"
+                        android:text="—"
                         android:textColor="@android:color/black" />
-
                 </LinearLayout>
+
             </TableRow>
 
             <TableRow
@@ -2327,9 +2362,10 @@
                     android:orientation="vertical">
 
                     <TextView
+                        android:id="@+id/cell_core_loss_w"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:background="@drawable/table_cell_border"
+                        android:background="@drawable/cell_highlight"
                         android:ellipsize="none"
                         android:gravity="center_vertical"
                         android:maxLines="3"
@@ -2804,18 +2840,20 @@
 
                     <!-- Sub Row 1 -->
                     <TextView
+                        android:id="@+id/cell_reg_unity_pf"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/table_cell_border"
+                        android:background="@drawable/cell_highlight"
                         android:gravity="center_vertical"
                         android:padding="5dp"
                         android:text="1.539% (Unity PF)"
                         android:textColor="@android:color/black" />
                     <!-- Sub Row 2 -->
                     <TextView
+                        android:id="@+id/cell_reg_pf_0p8"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/table_cell_border"
+                        android:background="@drawable/cell_highlight"
                         android:gravity="center_vertical"
                         android:padding="5dp"
                         android:text="2.406% (0.8 PF)"
@@ -2880,9 +2918,10 @@
                     android:orientation="vertical">
 
                     <TextView
+                        android:id="@+id/cell_full_load_current"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:background="@drawable/table_cell_border"
+                        android:background="@drawable/cell_highlight"
                         android:ellipsize="none"
                         android:gravity="center_vertical"
                         android:maxLines="3"
@@ -2948,9 +2987,10 @@
                     android:orientation="vertical">
 
                     <TextView
+                        android:id="@+id/cell_resistance_percent"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:background="@drawable/table_cell_border"
+                        android:background="@drawable/cell_highlight"
                         android:ellipsize="none"
                         android:gravity="center_vertical"
                         android:maxLines="3"
@@ -3053,27 +3093,30 @@
                         android:textColor="@android:color/black" />
                     <!-- Sub Row 2 -->
                     <TextView
+                        android:id="@+id/cell_eff_half"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/table_cell_border"
+                        android:background="@drawable/cell_highlight"
                         android:gravity="center_vertical"
                         android:padding="5dp"
                         android:text="99.0229"
                         android:textColor="@android:color/black" />
 
                     <TextView
+                        android:id="@+id/cell_eff_three_quarter"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/table_cell_border"
+                        android:background="@drawable/cell_highlight"
                         android:gravity="center_vertical"
                         android:padding="5dp"
                         android:text="98.8229"
                         android:textColor="@android:color/black" />
 
                     <TextView
+                        android:id="@+id/cell_eff_full"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/table_cell_border"
+                        android:background="@drawable/cell_highlight"
                         android:gravity="center_vertical"
                         android:padding="5dp"
                         android:text="98.5674"
@@ -3442,18 +3485,20 @@
                         android:textColor="@android:color/black" />
 
                     <TextView
+                        android:id="@+id/cell_no_load_loss_kw"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/table_cell_border"
+                        android:background="@drawable/cell_highlight"
                         android:gravity="center_vertical"
                         android:padding="5dp"
                         android:text="0.071"
                         android:textColor="@android:color/black" />
 
                     <TextView
+                        android:id="@+id/cellFullLoadLossKw"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:background="@drawable/table_cell_border"
+                        android:background="@drawable/cell_highlight"
                         android:gravity="center_vertical"
                         android:padding="5dp"
                         android:text="0.587"

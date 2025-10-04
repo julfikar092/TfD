@@ -5,45 +5,52 @@
     android:id="@+id/mobile_navigation"
     app:startDestination="@+id/home">
 
+    <!-- Home Fragment -->
     <fragment
         android:id="@+id/home"
         android:name="com.example.tfd.ui.home.HomeFragment"
         android:label="@string/menu_home"
         tools:layout="@layout/fragment_home" />
 
+    <!-- 5 KVA -->
     <fragment
         android:id="@+id/kVA_5"
-        android:name="com.example.tfd.ui.kVA_5.kVA_5Fragment"
+        android:name="com.example.tfd.ui.kva5.Kva5Fragment"
         android:label="@string/menu_5kVA"
         tools:layout="@layout/fragment_kva_5" />
 
+    <!-- 10 KVA -->
     <fragment
         android:id="@+id/kVA_10"
-        android:name="com.example.tfd.ui.kVA_10.kVA_10Fragment"
+        android:name="com.example.tfd.ui.kva10.Kva10Fragment"
         android:label="@string/menu_10kVA"
         tools:layout="@layout/fragment_kva_10" />
 
+    <!-- 15 KVA -->
     <fragment
         android:id="@+id/kVA_15"
-        android:name="com.example.tfd.ui.kVA_15.kVA_15Fragment"
+        android:name="com.example.tfd.ui.kva15.Kva15Fragment"
         android:label="@string/menu_15kVA"
         tools:layout="@layout/fragment_kva_15" />
 
-     <fragment
+    <!-- 25 KVA -->
+    <fragment
         android:id="@+id/kVA_25"
-        android:name="com.example.tfd.ui.kVA_25.kVA_25Fragment"
+        android:name="com.example.tfd.ui.kva25.Kva25Fragment"
         android:label="@string/menu_25kVA"
         tools:layout="@layout/fragment_kva_25" />
 
-     <fragment
+    <!-- 37.5 KVA -->
+    <fragment
         android:id="@+id/kVA_37"
-        android:name="com.example.tfd.ui.kVA_37.kVA_37Fragment"
+        android:name="com.example.tfd.ui.kva37.Kva37Fragment"
         android:label="@string/menu_37kVA"
         tools:layout="@layout/fragment_kva_37" />
 
-     <fragment
+    <!-- 50 KVA -->
+    <fragment
         android:id="@+id/kVA_50"
-        android:name="com.example.tfd.ui.kVA_50.kVA_50Fragment"
+        android:name="com.example.tfd.ui.kva50.Kva50Fragment"
         android:label="@string/menu_50kVA"
         tools:layout="@layout/fragment_kva_50" />
 
